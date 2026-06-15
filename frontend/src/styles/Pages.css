@@ -1,0 +1,118 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.lessons-grid,
+.signs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.lesson-card,
+.sign-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.lesson-card:hover,
+.sign-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.lesson-card h3,
+.sign-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.lesson-card p,
+.sign-card p {
+  margin: 0.5rem 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.practice-modes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.practice-card {
+  background: white;
+  border: 2px solid #667eea;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.practice-card h3 {
+  color: #667eea;
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.practice-card p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.profile-container {
+  max-width: 600px;
+}
+
+.profile-section {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile-section h2 {
+  color: #333;
+  margin-top: 0;
+}
+
+.profile-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-section li {
+  padding: 0.5rem 0;
+  color: #666;
+}

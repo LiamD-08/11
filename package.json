@@ -1,0 +1,28 @@
+{
+  "name": "auslan-learning-app",
+  "version": "0.1.0",
+  "description": "Comprehensive mobile and web application to teach Australian Sign Language",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "start": "npm run start --workspaces",
+    "test": "npm run test --workspaces",
+    "setup": "npm install && npm run backend:setup",
+    "backend:setup": "cd backend && npm install",
+    "frontend:setup": "cd frontend && npm install"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "keywords": [
+    "auslan",
+    "sign-language",
+    "learning",
+    "education",
+    "accessibility"
+  ],
+  "author": "Auslan Learning App Team",
+  "license": "MIT"
+}
